@@ -447,17 +447,18 @@ footer li {
 @media (max-width: 1024px) {
     .filtres {
         flex-wrap:wrap ;
-        padding-bottom: 35px;
     }
 
     .filtres span {
         height: 42px;
         padding: 4px 19px;
         border-radius: 25px;
+        line-height: normal;
     }
 
     div.filtres h2 {
         padding-bottom: 0;
+        margin-left: 0;
     }
 
     .hebergements-and-populaires {
@@ -624,7 +625,7 @@ footer li {
 
     }
     form{
-        width: 335px;
+        width: 90vw;
         margin: 0 20px;
     }
 
@@ -647,7 +648,7 @@ footer li {
 
     .filtres span {
         height: 42px;
-        width: 35%;
+        width: 32vw;
         font-size: 14px;
         line-height: normal;
     }
@@ -781,7 +782,7 @@ footer li {
     }
 
     footer ul.section {
-        width: 100%;
+        width: 88%;
         padding: 20px;
         margin: 0;
     }
