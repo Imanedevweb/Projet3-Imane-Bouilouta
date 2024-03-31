@@ -52,7 +52,11 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
-
+body{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*****header****/
 header {
     max-width: 1440px;
@@ -81,6 +85,7 @@ nav ul {
     list-style-type: none;
     gap: 68px;
     margin: 0;
+    padding: 0;
 }
 
 nav li {
@@ -194,7 +199,6 @@ button {
     display: flex;
     color: White;
     font-size: 18px;
-    text-align: flex start
 }
 
 /*****Filter***/
@@ -369,9 +373,9 @@ aside {
     margin-bottom: 5px;
 }
 
-/***** Section Activité**************/
+/***** Section Activite**************/
 
-.activités {
+.activites{
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -380,32 +384,32 @@ aside {
 
 }
 
-.activités-cards{
+.activites-cards{
     display: flex;
     flex-direction: row;
     gap: 30px;
   
 }
 
-.activités .card {
+.activites .card {
     width: 100%;
     height: 100%;
     justify-content: space-between;
     padding: 0;
 }
 
-.activités a {
+.activites a {
     width: 100%;
 }
 
-.activités .card img {
+.activites .card img {
     height: 380px;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     margin: 0;
 }
-.activités .card-title{
+.activites .card-title{
     align-content: center;
     padding: 20px 19px;
     margin: 0;
@@ -420,20 +424,22 @@ footer {
     width: 100%;
 }
 
-footer ul.section {
-    width: 100%;
+footer .section {
+    width: 90%;
     padding: 20px;
     margin: 0;
 }
 
-footer ul h3 {
+footer h3 {
     font-size: 18px;
     font-weight: 700;
-    margin: 0 0 15px 0
+    margin: 0 0 15px 0;
 }
-
+footer ul{
+    padding: 0;
+}
 footer li {
-    padding: 0 0 15px 0;
+    margin-top: 15px;
     font-size: 16px;
     font-weight: 400;
     list-style-type: none;
@@ -506,19 +512,19 @@ footer li {
         font-size: 14px;
     }
 
-    /**** activiés****/
-    .activités-cards{
+    /**** activies****/
+    .activites-cards{
         width: 100%;
     }
-    .activités .card {
+    .activites .card {
         width: 100%;
     }
 
-    .activités .card img {
+    .activites .card img {
         width: 100%;
         height: 200px;
     }
-    .activités .card-title {
+    .activites .card-title {
         align-content: center; 
         height: 30px;
         padding: 20px 19px;
@@ -744,20 +750,20 @@ footer li {
         margin-bottom: 15px;
     }
 
-    /***** Section Activité**************/
+    /***** Section Activite**************/
 
-    .activités {
+    .activites {
         padding: 30px;
     }
 
-    .activités div {
+    .activites div {
         display: flex;
         flex-direction: column;
         gap: 15px;
 
     }
 
-    .activités .card {
+    .activites .card {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -765,12 +771,12 @@ footer li {
         
     }
 
-    .activités .card img {
+    .activites .card img {
         height: 141px;
         width: 100%;
     }
 
-    .activités .card-title {
+    .activites .card-title {
         width: auto;
     }
 
