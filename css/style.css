@@ -91,6 +91,7 @@ nav ul {
 nav li {
   
     padding-top: 14px;
+    border-top: 2px solid white;
 }
 
 nav li:hover {
